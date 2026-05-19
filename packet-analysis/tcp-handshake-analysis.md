@@ -23,6 +23,12 @@ curl http://example.com
 
 The following packets show the TCP three-way handshake created before the HTTP request was sent.
 
+## Display Filter Used
+
+```bash
+tcp.port == 80
+```
+
 ## Packet Analysis
 
 | Step | Packet Type | Source | Destination | Description |
