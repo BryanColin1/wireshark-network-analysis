@@ -37,7 +37,6 @@ The following traffic pattern shows how an Nmap SYN scan can appear in Wireshark
 tcp.flags.syn == 1 && tcp.flags.ack == 0
 ```
 
-```md
 ## Key Observations
 
 - The scan generated multiple TCP SYN packets from the Kali VM to the target.
