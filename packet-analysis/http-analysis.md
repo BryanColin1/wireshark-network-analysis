@@ -45,10 +45,6 @@ http
 
 HTTP analysis is important because unencrypted web traffic can expose request details, headers, URLs, and sometimes sensitive data. In real environments, HTTPS should be used to protect confidentiality and integrity.
 
-## Evidence
-
-![HTTP Analysis](../screenshots/http-analysis.png)
-
 ## Conclusion
 
 The capture demonstrates a basic HTTP request and response. Analyzing HTTP traffic in Wireshark helps show how web communication works and why encrypted HTTPS is important for protecting data in transit.
